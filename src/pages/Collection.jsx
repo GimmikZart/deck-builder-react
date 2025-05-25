@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { useSelector } from 'react-redux'
 import Card from '../components/Card';
 import Filter from '../components/Filter';
@@ -11,6 +11,9 @@ function Collection() {
     const [searchTerm, setSearchTerm] = useState('');
     const [colorFilter, setColorFilter] = useState('');
     const [typeFilter, setTypeFilter] = useState('');
+
+    const [currentPage, setCurrentPage] = useState(1)
+    const itemsPerPage = 20
     
     const filteredCards = useMemo(() => {
       return cardsList.filter(card => {
@@ -27,13 +30,24 @@ function Collection() {
         return matchesSearch && matchesType && matchesColor;
       });
     }, [cardsList, searchTerm, typeFilter, colorFilter]);
+
+    const totalPages = Math.ceil(filteredCards.length / itemsPerPage)
+
+    const paginatedCards = useMemo(() => {
+      const start = (currentPage - 1) * itemsPerPage
+      return filteredCards.slice(start, start + itemsPerPage)
+    }, [filteredCards, currentPage])
+  
+    useEffect(() => {
+      setCurrentPage(1)
+    }, [searchTerm, typeFilter, colorFilter])
     
   return (
     <div className=" bg-gray-900 relative min-h-full pb-15">
       {
-        filteredCards.length > 0 ?
+        paginatedCards.length > 0 ?
           <ul className="grid grid-cols-2 gap-2 p-2 ">
-            {filteredCards.map(card => (
+            {paginatedCards.map(card => (
               <li key={card.id}>
                 <Card card={card}/>
               </li>
@@ -42,15 +56,12 @@ function Collection() {
         : <div className="text-white text-center pt-10 p-4">No cards found</div>
       }
       <Filter 
-        onSearchChange={(value) => {
-          setSearchTerm(value);
-        }}
-        onTypeChange={(value) => {
-          setTypeFilter(value);
-        }}
-        onColorChange={(value) => {
-          setColorFilter(value);
-        }}
+        onSearchChange={setSearchTerm}
+        onTypeChange={setTypeFilter}
+        onColorChange={setColorFilter}
+        currentPage={currentPage}
+        totalPages={totalPages}
+        onPageChange={setCurrentPage}
       />
     </div>
   );
