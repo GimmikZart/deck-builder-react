@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { TextInput, Select, Label, Button } from 'flowbite-react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFilter, faFilterCircleXmark } from '@fortawesome/free-solid-svg-icons'
-
+import colorsListFromJson from '../assets/colorList.json'
+import typeListFromJson from '../assets/typeList.json'
 export default function Filter({
   onSearchChange,
   onTypeChange,
@@ -18,15 +19,11 @@ export default function Filter({
   const [colorList, setColorList] = useState([])
 
   useEffect(() => {
-    fetch('/src/assets/typeList.json')
-      .then(res => res.json())
-      .then(setTypeList)
+    setTypeList(typeListFromJson)
   }, [])
 
   useEffect(() => {
-    fetch('/src/assets/colorList.json')
-      .then(res => res.json())
-      .then(setColorList)
+    setColorList(colorsListFromJson)
   }, [])
 
   const handleReset = () => {
