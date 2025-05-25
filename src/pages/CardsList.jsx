@@ -31,13 +31,18 @@ function CardsList() {
     
   return (
     <div className=" bg-gray-900 relative min-h-full pb-15">
-      <ul className="grid grid-cols-2 gap-2 p-2 ">
-        {filteredCards.map(card => (
-          <li key={card.id}>
-            <Card card={card} isCardListView={true}/>
-          </li>
-        ))}
-      </ul>
+      {
+        filteredCards.length > 0 ?
+          <ul className="grid grid-cols-2 gap-2 p-2 ">
+            {filteredCards.map(card => (
+              <li key={card.id}>
+                <Card card={card} isCardListView={true}/>
+              </li>
+            ))}
+          </ul>
+        : <div className="text-white text-center pt-10 p-4">No cards found</div>
+      }
+      
       <Filter 
         onSearchChange={(value) => {
           setSearchTerm(value);
