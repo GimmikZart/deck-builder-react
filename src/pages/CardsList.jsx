@@ -1,19 +1,37 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import Card from '../components/Card';
 import Filter from '../components/Filter';
 function CardsList() {
     const [cardsList, setCardsList] = useState([]);
+    const [searchTerm, setSearchTerm] = useState('');
+    const [colorFilter, setColorFilter] = useState('');
+    const [typeFilter, setTypeFilter] = useState('');
     useEffect(() => {
         fetch('/src/assets/cardsList.json')
         .then(res => res.json())
         .then(setCardsList);
     }, []);
-    console.log('Rendering CardsList', cardsList.length, 'cards');
+    
+    const filteredCards = useMemo(() => {
+      return cardsList.filter(card => {
+        const matchesSearch = card.name
+          .toLowerCase()
+          .includes(searchTerm.toLowerCase());
+        const matchesType = typeFilter
+          ? card.type === typeFilter
+          : true;
+        const matchesColor = colorFilter
+          ? card.color === colorFilter
+          : true;
+  
+        return matchesSearch && matchesType && matchesColor;
+      });
+    }, [cardsList, searchTerm, typeFilter, colorFilter]);
     
   return (
-    <div className=" bg-black relative">
+    <div className=" bg-black relative min-h-full pb-15">
       <ul className="grid grid-cols-2 gap-2 p-2 ">
-        {cardsList.map(card => (
+        {filteredCards.map(card => (
           <li key={card.id}>
             <Card card={card} />
           </li>
@@ -21,19 +39,14 @@ function CardsList() {
       </ul>
       <Filter 
         onSearchChange={(value) => {
-          console.log('Search changed:', value);
-          // Implement search logic here
+          setSearchTerm(value);
         }}
         onTypeChange={(value) => {
-          console.log('Type changed:', value);
-          // Implement type filter logic here
+          setTypeFilter(value);
         }}
-        onRarityChange={(value) => {
-          console.log('Rarity changed:', value);
-          // Implement rarity filter logic here
+        onColorChange={(value) => {
+          setColorFilter(value);
         }}
-        typeOptions={['Fire', 'Water', 'Grass']} // Example options
-        rarityOptions={['Common', 'Uncommon', 'Rare']} // Example options
       />
     </div>
   );

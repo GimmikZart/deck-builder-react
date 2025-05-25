@@ -1,48 +1,117 @@
-import { TextInput, Select, Label } from 'flowbite-react'
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import { TextInput, Select, Label, Button } from 'flowbite-react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFilter, faFilterCircleXmark } from '@fortawesome/free-solid-svg-icons'
 
-export default function Filter({ 
-  onSearchChange, 
-  onTypeChange, 
-  onRarityChange,
-  typeOptions = [], 
-  rarityOptions = [] 
+export default function Filter({
+  onSearchChange,
+  onTypeChange,
+  onColorChange
 }) {
+  const [isOpen, setIsOpen] = useState(false)
+
+  // stati locali per rendere i campi controllati
+  const [searchValue, setSearchValue] = useState('')
+  const [typeValue,   setTypeValue]   = useState('')
+  const [colorValue,  setColorValue]  = useState('')
+
+  const [typeList,  setTypeList]  = useState([])
+  const [colorList, setColorList] = useState([])
+
+  useEffect(() => {
+    fetch('/src/assets/typeList.json')
+      .then(res => res.json())
+      .then(setTypeList)
+  }, [])
+
+  useEffect(() => {
+    fetch('/src/assets/colorList.json')
+      .then(res => res.json())
+      .then(setColorList)
+  }, [])
+
+  // handler per reset
+  const handleReset = () => {
+    setSearchValue('')
+    setTypeValue('')
+    setColorValue('')
+    onSearchChange('')
+    onTypeChange('')
+    onColorChange('')
+  }
+
   return (
-    <div className="bg-gray-800 p-5 flex flex-col md:flex-row gap-4 sticky left-0 bottom-0">
-      <h3 class="text-white font-bold text-lg">Filters</h3>
-      <div className="flex flex-col">
-        <Label htmlFor="search" value="Cerca nome" />
-        <TextInput
-          id="search"
-          placeholder="Es. Luffy"
-          onChange={e => onSearchChange(e.target.value)}
-        />
-      </div>
-      <div className="flex flex-col">
-        <Label htmlFor="type" value="Tipo" />
-        <Select
-          id="type"
-          onChange={e => onTypeChange(e.target.value)}
+    <div className="bg-gray-800 p-4 flex flex-col gap-4 fixed w-full left-0 bottom-[56px]">
+      <div className="flex items-center justify-between">
+        <h3 className="text-white font-bold text-lg">Filters</h3>
+        <button
+          onClick={() => setIsOpen(open => !open)}
+          className="text-white focus:outline-none"
         >
-          <option value="">Tutti</option>
-          {typeOptions.map(t => (
-            <option key={t} value={t}>{t}</option>
-          ))}
-        </Select>
+          <FontAwesomeIcon icon={isOpen ? faFilterCircleXmark : faFilter} size="lg" />
+        </button>
       </div>
-      <div className="flex flex-col">
-        <Label htmlFor="rarity" value="Rarità" />
-        <Select
-          id="rarity"
-          onChange={e => onRarityChange(e.target.value)}
-        >
-          <option value="">Tutte</option>
-          {rarityOptions.map(r => (
-            <option key={r} value={r}>{r}</option>
-          ))}
-        </Select>
-      </div>
+
+      {isOpen && (
+        <div className="flex flex-col md:flex-row gap-4">
+          {/* Search */}
+          <div className="flex flex-col">
+            <Label htmlFor="search" className="mb-2 text-white">Name</Label>
+            <TextInput
+              id="search"
+              value={searchValue}
+              placeholder="Es. Luffy"
+              onChange={e => {
+                setSearchValue(e.target.value)
+                onSearchChange(e.target.value)
+              }}
+            />
+          </div>
+
+          {/* Type */}
+          <div className="flex flex-col">
+            <Label htmlFor="type" className="mb-2 text-white">Type</Label>
+            <Select
+              id="type"
+              value={typeValue}
+              onChange={e => {
+                setTypeValue(e.target.value)
+                onTypeChange(e.target.value)
+              }}
+            >
+              <option value="">All</option>
+              {typeList.map(t => (
+                <option key={t} value={t}>{t}</option>
+              ))}
+            </Select>
+          </div>
+
+          {/* Color */}
+          <div className="flex flex-col">
+            <Label htmlFor="color" className="mb-2 text-white">Color</Label>
+            <Select
+              id="color"
+              value={colorValue}
+              onChange={e => {
+                setColorValue(e.target.value)
+                onColorChange(e.target.value)
+              }}
+            >
+              <option value="">All</option>
+              {colorList.map(c => (
+                <option key={c} value={c}>{c}</option>
+              ))}
+            </Select>
+          </div>
+
+          {/* Reset */}
+          <div className="flex items-end">
+            <Button color="light" onClick={handleReset} className='w-full'>
+              Reset
+            </Button>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
