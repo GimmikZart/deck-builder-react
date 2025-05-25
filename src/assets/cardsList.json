@@ -1,0 +1,1295 @@
+[
+    {
+        "id": "OP02-001_p2",
+        "code": "OP02-001",
+        "rarity": "L",
+        "type": "LEADER",
+        "name": "Edward.Newgate",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-001_p2.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-001_p2.png?241220"
+        },
+        "cost": 6,
+        "attribute": {
+            "name": "Special",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type03.png"
+        },
+        "power": 6000,
+        "counter": "-",
+        "color": "Red",
+        "family": "The Four Emperors/Whitebeard Pirates",
+        "ability": "[End of Your Turn] Add 1 card from the top of your Life\n                    cards to your hand.",
+        "trigger": "",
+        "set": {
+            "name": "-Red Edward.Newgate- [ST-15]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP02-008_p1",
+        "code": "OP02-008",
+        "rarity": "R",
+        "type": "CHARACTER",
+        "name": "Jozu",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-008_p1.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-008_p1.png?241220"
+        },
+        "cost": 4,
+        "attribute": {
+            "name": "Strike",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type01.png"
+        },
+        "power": 4000,
+        "counter": "2000",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "[DON!! x1] If you have 2 or less Life cards and your\n                    Leader's type includes \"Whitebeard Pirates\", this Character\n                    gains [Rush].<br>(This card can attack on the turn in\n                    which it is played.)",
+        "trigger": "",
+        "set": {
+            "name": "-Red Edward.Newgate- [ST-15]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP02-018_p2",
+        "code": "OP02-018",
+        "rarity": "R",
+        "type": "CHARACTER",
+        "name": "Marco",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-018_p2.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-018_p2.png?241220"
+        },
+        "cost": 4,
+        "attribute": {
+            "name": "Special",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type03.png"
+        },
+        "power": 5000,
+        "counter": "1000",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "[Blocker] (After your opponent declares an attack, you may\n                    rest this card to make it the new target of the attack.)<br>[On\n                    K.O.] You may trash 1 card with a type including \"Whitebeard\n                    Pirates\" from your hand: If you have 2 or less Life cards,\n                    play this Character card from your trash rested.",
+        "trigger": "",
+        "set": {
+            "name": "-Red Edward.Newgate- [ST-15]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP02-019_p1",
+        "code": "OP02-019",
+        "rarity": "UC",
+        "type": "CHARACTER",
+        "name": "Rakuyo",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-019_p1.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-019_p1.png?241220"
+        },
+        "cost": 3,
+        "attribute": {
+            "name": "Strike",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type01.png"
+        },
+        "power": 4000,
+        "counter": "1000",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "[DON!! x1] [Your Turn] All of your Characters with a type\n                    including \"Whitebeard Pirates\" gain +1000 power.",
+        "trigger": "",
+        "set": {
+            "name": "-Red Edward.Newgate- [ST-15]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP02-023_p1",
+        "code": "OP02-023",
+        "rarity": "C",
+        "type": "EVENT",
+        "name": "\n                  You May Be a Fool...but I Still Love You\n                ",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-023_p1.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-023_p1.png?241220"
+        },
+        "cost": 1,
+        "attribute": {
+            "image": "https://en.onepiece-cardgame.comundefined"
+        },
+        "power": null,
+        "counter": "-",
+        "color": "Red",
+        "family": "The Four Emperors/Whitebeard Pirates",
+        "ability": "[Main] If you have 3 or less Life cards, you cannot add Life\n                    cards to your hand using your own effects during this turn.",
+        "trigger": "\n                    \n                    [Trigger] Up to 1 of your Leader gains +1000 power during\n                    this turn.\n                  ",
+        "set": {
+            "name": "-Red Edward.Newgate- [ST-15]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-003_p2",
+        "code": "OP03-003",
+        "rarity": "R",
+        "type": "CHARACTER",
+        "name": "Izo",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-003_p2.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-003_p2.png?241220"
+        },
+        "cost": 1,
+        "attribute": {
+            "name": "Ranged",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type04.png"
+        },
+        "power": 2000,
+        "counter": "1000",
+        "color": "Red",
+        "family": "Land of Wano/Whitebeard Pirates",
+        "ability": "[On Play] Look at 5 cards from the top of your deck; reveal\n                    up to 1 card with a type including \"Whitebeard Pirates\"\n                    other than [Izo] and add it to your hand. Then, place the\n                    rest at the bottom of your deck in any order.",
+        "trigger": "",
+        "set": {
+            "name": "-Red Edward.Newgate- [ST-15]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-006_p1",
+        "code": "OP03-006",
+        "rarity": "C",
+        "type": "CHARACTER",
+        "name": "Speed Jil",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-006_p1.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-006_p1.png?241220"
+        },
+        "cost": 4,
+        "attribute": {
+            "name": "Slash",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type02.png"
+        },
+        "power": 6000,
+        "counter": "1000",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "-",
+        "trigger": "",
+        "set": {
+            "name": "-Red Edward.Newgate- [ST-15]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-007_p1",
+        "code": "OP03-007",
+        "rarity": "C",
+        "type": "CHARACTER",
+        "name": "Namule",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-007_p1.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-007_p1.png?241220"
+        },
+        "cost": 3,
+        "attribute": {
+            "name": "Strike",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type01.png"
+        },
+        "power": 5000,
+        "counter": "1000",
+        "color": "Red",
+        "family": "Fish-Man/Whitebeard Pirates",
+        "ability": "-",
+        "trigger": "",
+        "set": {
+            "name": "-Red Edward.Newgate- [ST-15]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-009_p1",
+        "code": "OP03-009",
+        "rarity": "C",
+        "type": "CHARACTER",
+        "name": "Haruta",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-009_p1.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-009_p1.png?241220"
+        },
+        "cost": 2,
+        "attribute": {
+            "name": "Slash",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type02.png"
+        },
+        "power": 3000,
+        "counter": "1000",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!!\n                    card to your Leader or 1 of your Characters.",
+        "trigger": "",
+        "set": {
+            "name": "-Red Edward.Newgate- [ST-15]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-010_p1",
+        "code": "OP03-010",
+        "rarity": "C",
+        "type": "CHARACTER",
+        "name": "Fossa",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-010_p1.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-010_p1.png?241220"
+        },
+        "cost": 2,
+        "attribute": {
+            "name": "Slash",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type02.png"
+        },
+        "power": 2000,
+        "counter": "1000",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "[Blocker] (After your opponent declares an attack, you may\n                    rest this card to make it the new target of the attack.)",
+        "trigger": "",
+        "set": {
+            "name": "-Red Edward.Newgate- [ST-15]"
+        },
+        "notes": []
+    },
+    {
+        "id": "ST15-001",
+        "code": "ST15-001",
+        "rarity": "C",
+        "type": "CHARACTER",
+        "name": "Atmos",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/ST15-001.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/ST15-001.png?241220"
+        },
+        "cost": 4,
+        "attribute": {
+            "name": "Slash",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type02.png"
+        },
+        "power": 5000,
+        "counter": "1000",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "[When Attacking] If your Leader is [Edward.Newgate], you\n                    cannot add Life cards to your hand using your own effects\n                    during this turn.",
+        "trigger": "",
+        "set": {
+            "name": "-Red Edward.Newgate- [ST-15]"
+        },
+        "notes": []
+    },
+    {
+        "id": "ST15-002",
+        "code": "ST15-002",
+        "rarity": "SR",
+        "type": "CHARACTER",
+        "name": "Edward.Newgate",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/ST15-002.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/ST15-002.png?241220"
+        },
+        "cost": 7,
+        "attribute": {
+            "name": "Special",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type03.png"
+        },
+        "power": 8000,
+        "counter": "-",
+        "color": "Red",
+        "family": "The Four Emperors/Whitebeard Pirates",
+        "ability": "[On Play] Give up to 1 rested DON!! card to your Leader or 1\n                    of your Characters.<br>[Activate: Main] You may rest this\n                    Character: K.O. up to 1 of your opponent's Characters with\n                    5000 power or less.",
+        "trigger": "",
+        "set": {
+            "name": "-Red Edward.Newgate- [ST-15]"
+        },
+        "notes": []
+    },
+    {
+        "id": "ST15-003",
+        "code": "ST15-003",
+        "rarity": "C",
+        "type": "CHARACTER",
+        "name": "Kingdew",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/ST15-003.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/ST15-003.png?241220"
+        },
+        "cost": 3,
+        "attribute": {
+            "name": "Strike",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type01.png"
+        },
+        "power": 4000,
+        "counter": "1000",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "[Blocker] (After your opponent declares an attack, you may\n                    rest this card to make it the new target of the attack.)<br>[Opponent's\n                    Turn] When this Character is K.O.'d by an effect, up to 1 of\n                    your Leader gains +2000 power during this turn.",
+        "trigger": "",
+        "set": {
+            "name": "-Red Edward.Newgate- [ST-15]"
+        },
+        "notes": []
+    },
+    {
+        "id": "ST15-004",
+        "code": "ST15-004",
+        "rarity": "C",
+        "type": "CHARACTER",
+        "name": "Thatch",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/ST15-004.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/ST15-004.png?241220"
+        },
+        "cost": 1,
+        "attribute": {
+            "name": "Slash",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type02.png"
+        },
+        "power": 2000,
+        "counter": "2000",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "[On Play] If your Leader's type includes \"Whitebeard\n                    Pirates\", give up to 1 of your opponent's Characters −2000\n                    power during this turn. Then, add 1 card from the top of\n                    your Life cards to your hand.",
+        "trigger": "",
+        "set": {
+            "name": "-Red Edward.Newgate- [ST-15]"
+        },
+        "notes": []
+    },
+    {
+        "id": "ST15-005",
+        "code": "ST15-005",
+        "rarity": "SR",
+        "type": "CHARACTER",
+        "name": "Portgas.D.Ace",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/ST15-005.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/ST15-005.png?241220"
+        },
+        "cost": 5,
+        "attribute": {
+            "name": "Special",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type03.png"
+        },
+        "power": 6000,
+        "counter": "1000",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "If your Leader's type includes \"Whitebeard Pirates\", this\n                    Character gains [Rush].<br>(This card can attack on the\n                    turn in which it is played.)<br>[Once Per Turn] If this\n                    Character would be removed from the field by your opponent's\n                    effect, you may give this Character −2000 power during this\n                    turn instead.",
+        "trigger": "",
+        "set": {
+            "name": "-Red Edward.Newgate- [ST-15]"
+        },
+        "notes": []
+    },
+    {
+        "id": "ST14-001",
+        "code": "ST14-001",
+        "rarity": "L",
+        "type": "LEADER",
+        "name": "Monkey.D.Luffy",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-001.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-001.png?241220"
+        },
+        "cost": 5,
+        "attribute": {
+            "name": "Strike",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type01.png"
+        },
+        "power": 5000,
+        "counter": "-",
+        "color": "Black",
+        "family": "Straw Hat Crew",
+        "ability": "[DON!! x1] All of your Characters gain +1 cost. If you have a Character with a cost of 8 or more, this Leader gains +1000 power.",
+        "trigger": "",
+        "set": {
+            "name": "-3D2Y- [ST-14]"
+        },
+        "notes": []
+    },
+    {
+        "id": "ST14-002",
+        "code": "ST14-002",
+        "rarity": "C",
+        "type": "CHARACTER",
+        "name": "Usopp",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-002.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-002.png?241220"
+        },
+        "cost": 3,
+        "attribute": {
+            "name": "Ranged",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type04.png"
+        },
+        "power": 4000,
+        "counter": "1000",
+        "color": "Black",
+        "family": "Straw Hat Crew",
+        "ability": "[DON!! x1] [When Attacking] If you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+        "trigger": "",
+        "set": {
+            "name": "-3D2Y- [ST-14]"
+        },
+        "notes": []
+    },
+    {
+        "id": "ST14-003",
+        "code": "ST14-003",
+        "rarity": "SR",
+        "type": "CHARACTER",
+        "name": "Sanji",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-003.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-003.png?241220"
+        },
+        "cost": 5,
+        "attribute": {
+            "name": "Strike",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type01.png"
+        },
+        "power": 6000,
+        "counter": "-",
+        "color": "Black",
+        "family": "Straw Hat Crew",
+        "ability": "[On Play] If you have a Character with a cost of 6 or more, K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+        "trigger": "",
+        "set": {
+            "name": "-3D2Y- [ST-14]"
+        },
+        "notes": []
+    },
+    {
+        "id": "ST14-004",
+        "code": "ST14-004",
+        "rarity": "C",
+        "type": "CHARACTER",
+        "name": "Jinbe",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-004.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-004.png?241220"
+        },
+        "cost": 3,
+        "attribute": {
+            "name": "Strike",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type01.png"
+        },
+        "power": 4000,
+        "counter": "1000",
+        "color": "Black",
+        "family": "Fish-Man/The Sun Pirates",
+        "ability": "[Activate: Main] [Once Per Turn] Up to 1 of your black {Straw Hat Crew} type Characters gains +2 cost until the end of your opponent's next turn.",
+        "trigger": "",
+        "set": {
+            "name": "-3D2Y- [ST-14]"
+        },
+        "notes": []
+    },
+    {
+        "id": "ST14-005",
+        "code": "ST14-005",
+        "rarity": "C",
+        "type": "CHARACTER",
+        "name": "Tony Tony.Chopper",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-005.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-005.png?241220"
+        },
+        "cost": 4,
+        "attribute": {
+            "name": "Wisdom",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type05.png"
+        },
+        "power": 6000,
+        "counter": "1000",
+        "color": "Black",
+        "family": "Animal/Straw Hat Crew",
+        "ability": "-",
+        "trigger": "",
+        "set": {
+            "name": "-3D2Y- [ST-14]"
+        },
+        "notes": []
+    },
+    {
+        "id": "ST14-006",
+        "code": "ST14-006",
+        "rarity": "SR",
+        "type": "CHARACTER",
+        "name": "Nami",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-006.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-006.png?241220"
+        },
+        "cost": 3,
+        "attribute": {
+            "name": "Special",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type03.png"
+        },
+        "power": 2000,
+        "counter": "1000",
+        "color": "Black",
+        "family": "Straw Hat Crew",
+        "ability": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)<br>[On Play] If you have 6 or less cards in your hand and a Character with a cost of 8 or more, draw 1 card.",
+        "trigger": "",
+        "set": {
+            "name": "-3D2Y- [ST-14]"
+        },
+        "notes": []
+    },
+    {
+        "id": "ST14-007",
+        "code": "ST14-007",
+        "rarity": "C",
+        "type": "CHARACTER",
+        "name": "Nico Robin",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-007.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-007.png?241220"
+        },
+        "cost": 6,
+        "attribute": {
+            "name": "Strike",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type01.png"
+        },
+        "power": 7000,
+        "counter": "1000",
+        "color": "Black",
+        "family": "Straw Hat Crew",
+        "ability": "[On Play]/[When Attacking] If you have a Character with a cost of 8 or more, give up to 1 of your opponent's Characters −5 cost during this turn.",
+        "trigger": "",
+        "set": {
+            "name": "-3D2Y- [ST-14]"
+        },
+        "notes": []
+    },
+    {
+        "id": "ST14-008",
+        "code": "ST14-008",
+        "rarity": "C",
+        "type": "CHARACTER",
+        "name": "Haredas",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-008.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-008.png?241220"
+        },
+        "cost": 1,
+        "attribute": {
+            "name": "Wisdom",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type05.png"
+        },
+        "power": null,
+        "counter": "2000",
+        "color": "Black",
+        "family": "Sky Island",
+        "ability": "[Activate: Main] You may rest this Character: Up to 1 of your black {Straw Hat Crew} type Characters gains +2 cost until the end of your opponent's next turn. Then, if you have a Character with a cost of 8 or more, draw 1 card and trash 1 card from your hand.",
+        "trigger": "",
+        "set": {
+            "name": "-3D2Y- [ST-14]"
+        },
+        "notes": []
+    },
+    {
+        "id": "ST14-009",
+        "code": "ST14-009",
+        "rarity": "C",
+        "type": "CHARACTER",
+        "name": "Franky",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-009.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-009.png?241220"
+        },
+        "cost": 5,
+        "attribute": {
+            "name": "Special",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type03.png"
+        },
+        "power": 6000,
+        "counter": "1000",
+        "color": "Black",
+        "family": "Straw Hat Crew",
+        "ability": "[DON!! x1] [Opponent's Turn] If you have a Character with a cost of 6 or more, this Character cannot be K.O.'d by your opponent's effects and gains +2000 power.",
+        "trigger": "",
+        "set": {
+            "name": "-3D2Y- [ST-14]"
+        },
+        "notes": []
+    },
+    {
+        "id": "ST14-010",
+        "code": "ST14-010",
+        "rarity": "C",
+        "type": "CHARACTER",
+        "name": "Brook",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-010.png?241220",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-010.png?241220"
+        },
+        "cost": 5,
+        "attribute": {
+            "name": "Slash",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type02.png"
+        },
+        "power": 7000,
+        "counter": "1000",
+        "color": "Black",
+        "family": "Straw Hat Crew",
+        "ability": "-",
+        "trigger": "",
+        "set": {
+            "name": "-3D2Y- [ST-14]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-002",
+        "code": "OP03-002",
+        "rarity": "UC",
+        "type": "CHARACTER",
+        "name": "Adio",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-002.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-002.png"
+        },
+        "cost": 4,
+        "attribute": {
+            "name": "Ranged",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type04.png"
+        },
+        "power": 5000,
+        "counter": "1000",
+        "color": "Red",
+        "family": "ODYSSEY",
+        "ability": "[DON!! x1] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 2000 or less power during this battle.",
+        "trigger": "",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-003",
+        "code": "OP03-003",
+        "rarity": "R",
+        "type": "CHARACTER",
+        "name": "Izo",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-003.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-003.png"
+        },
+        "cost": 1,
+        "attribute": {
+            "name": "Ranged",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type04.png"
+        },
+        "power": 2000,
+        "counter": "1000",
+        "color": "Red",
+        "family": "Land of Wano/Whitebeard Pirates",
+        "ability": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"Whitebeard Pirates\" other than [Izo] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+        "trigger": "",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-004",
+        "code": "OP03-004",
+        "rarity": "C",
+        "type": "CHARACTER",
+        "name": "Curiel",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-004.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-004.png"
+        },
+        "cost": 3,
+        "attribute": {
+            "name": "Ranged",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type04.png"
+        },
+        "power": 4000,
+        "counter": "1000",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "This Character cannot attack a Leader on the turn in which it is played.<br>[DON!! x1] This Character gains [Rush].<br>(This card can attack on the turn in which it is played.)",
+        "trigger": "",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-005",
+        "code": "OP03-005",
+        "rarity": "UC",
+        "type": "CHARACTER",
+        "name": "Thatch",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-005.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-005.png"
+        },
+        "cost": 1,
+        "attribute": {
+            "name": "Slash",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type02.png"
+        },
+        "power": 2000,
+        "counter": "1000",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "[Activate: Main] [Once Per Turn] This Character gains +2000 power during this turn. Then, trash this Character at the end of this turn.",
+        "trigger": "",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-006",
+        "code": "OP03-006",
+        "rarity": "C",
+        "type": "CHARACTER",
+        "name": "Speed Jil",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-006.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-006.png"
+        },
+        "cost": 4,
+        "attribute": {
+            "name": "Slash",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type02.png"
+        },
+        "power": 6000,
+        "counter": "1000",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "-",
+        "trigger": "",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-007",
+        "code": "OP03-007",
+        "rarity": "C",
+        "type": "CHARACTER",
+        "name": "Namule",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-007.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-007.png"
+        },
+        "cost": 3,
+        "attribute": {
+            "name": "Strike",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type01.png"
+        },
+        "power": 5000,
+        "counter": "1000",
+        "color": "Red",
+        "family": "Fish-Man/Whitebeard Pirates",
+        "ability": "-",
+        "trigger": "",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-008",
+        "code": "OP03-008",
+        "rarity": "UC",
+        "type": "CHARACTER",
+        "name": "Buggy",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-008.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-008.png"
+        },
+        "cost": 1,
+        "attribute": {
+            "name": "Slash",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type02.png"
+        },
+        "power": 3000,
+        "counter": "-",
+        "color": "Red",
+        "family": "Buggy Pirates",
+        "ability": "This Character cannot be K.O.'d in battle by <slash> attribute cards.<br>[On Play] Look at 5 cards from the top of your deck; reveal up to 1 red Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.</slash>",
+        "trigger": "",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-009",
+        "code": "OP03-009",
+        "rarity": "C",
+        "type": "CHARACTER",
+        "name": "Haruta",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-009.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-009.png"
+        },
+        "cost": 2,
+        "attribute": {
+            "name": "Slash",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type02.png"
+        },
+        "power": 3000,
+        "counter": "1000",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+        "trigger": "",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-010",
+        "code": "OP03-010",
+        "rarity": "C",
+        "type": "CHARACTER",
+        "name": "Fossa",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-010.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-010.png"
+        },
+        "cost": 2,
+        "attribute": {
+            "name": "Slash",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type02.png"
+        },
+        "power": 2000,
+        "counter": "1000",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+        "trigger": "",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-011",
+        "code": "OP03-011",
+        "rarity": "UC",
+        "type": "CHARACTER",
+        "name": "Blamenco",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-011.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-011.png"
+        },
+        "cost": 2,
+        "attribute": {
+            "name": "Strike",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type01.png"
+        },
+        "power": 3000,
+        "counter": "1000",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn.",
+        "trigger": "",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-012",
+        "code": "OP03-012",
+        "rarity": "R",
+        "type": "CHARACTER",
+        "name": "Marshall.D.Teach",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-012.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-012.png"
+        },
+        "cost": 4,
+        "attribute": {
+            "name": "Strike",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type01.png"
+        },
+        "power": 6000,
+        "counter": "-",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "[When Attacking] You may trash 1 of your red Characters with 4000 power or more: Draw 1 card. Then, this Character gains +1000 power during this battle.",
+        "trigger": "",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-013",
+        "code": "OP03-013",
+        "rarity": "SR",
+        "type": "CHARACTER",
+        "name": "Marco",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-013.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-013.png"
+        },
+        "cost": 5,
+        "attribute": {
+            "name": "Special",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type03.png"
+        },
+        "power": 6000,
+        "counter": "1000",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "[Your Turn] [On Play] K.O. up to 1 of your opponent's Characters with 3000 power or less.<br>[On K.O.] You may trash 1 Event from your hand: You may play this Character card from your trash rested.",
+        "trigger": "",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-013_p1",
+        "code": "OP03-013",
+        "rarity": "SR",
+        "type": "CHARACTER",
+        "name": "Marco",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-013_p1.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-013_p1.png"
+        },
+        "cost": 5,
+        "attribute": {
+            "name": "Special",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type03.png"
+        },
+        "power": 6000,
+        "counter": "1000",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "[Your Turn] [On Play] K.O. up to 1 of your opponent's Characters with 3000 power or less.<br>[On K.O.] You may trash 1 Event from your hand: You may play this Character card from your trash rested.",
+        "trigger": "",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-014",
+        "code": "OP03-014",
+        "rarity": "UC",
+        "type": "CHARACTER",
+        "name": "Monkey.D.Garp",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-014.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-014.png"
+        },
+        "cost": 3,
+        "attribute": {
+            "name": "Strike",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type01.png"
+        },
+        "power": 5000,
+        "counter": "-",
+        "color": "Red",
+        "family": "Navy",
+        "ability": "[When Attacking] Play up to 1 red Character card with a cost of 1 from your hand.",
+        "trigger": "",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-015",
+        "code": "OP03-015",
+        "rarity": "UC",
+        "type": "CHARACTER",
+        "name": "Lim",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-015.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-015.png"
+        },
+        "cost": 3,
+        "attribute": {
+            "name": "Wisdom",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type05.png"
+        },
+        "power": 2000,
+        "counter": "-",
+        "color": "Red",
+        "family": "ODYSSEY",
+        "ability": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)<br>[Opponent's Turn] When this Character is K.O.'d, give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
+        "trigger": "",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-016",
+        "code": "OP03-016",
+        "rarity": "R",
+        "type": "EVENT",
+        "name": "Flame Emperor",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-016.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-016.png"
+        },
+        "cost": 7,
+        "attribute": {
+            "image": "https://en.onepiece-cardgame.comundefined"
+        },
+        "power": null,
+        "counter": "-",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "[Main] If your Leader is [Portgas.D.Ace], K.O. up to 1 of your opponent's Characters with 8000 power or less, and your Leader gains [Double Attack] and +3000 power during this turn.<br>(This card deals 2 damage.)",
+        "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-017",
+        "code": "OP03-017",
+        "rarity": "UC",
+        "type": "EVENT",
+        "name": "Cross Fire",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-017.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-017.png"
+        },
+        "cost": 2,
+        "attribute": {
+            "image": "https://en.onepiece-cardgame.comundefined"
+        },
+        "power": null,
+        "counter": "-",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "[Main]/[Counter] If your Leader's type includes \"Whitebeard Pirates\", give up to 1 of your opponent's Characters −4000 power during this turn.",
+        "trigger": "[Trigger] Activate this card's [Main] effect.",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-018",
+        "code": "OP03-018",
+        "rarity": "R",
+        "type": "EVENT",
+        "name": "Fire Fist",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-018.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-018.png"
+        },
+        "cost": 3,
+        "attribute": {
+            "image": "https://en.onepiece-cardgame.comundefined"
+        },
+        "power": null,
+        "counter": "-",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "[Main] You may trash 1 Event from your hand: K.O. up to 1 of your opponent's Characters with 5000 power or less and up to 1 of your opponent's Characters with 4000 power or less.",
+        "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-018_p1",
+        "code": "OP03-018",
+        "rarity": "R",
+        "type": "EVENT",
+        "name": "Fire Fist",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-018_p1.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-018_p1.png"
+        },
+        "cost": 3,
+        "attribute": {
+            "image": "https://en.onepiece-cardgame.comundefined"
+        },
+        "power": null,
+        "counter": "-",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "[Main] You may trash 1 Event from your hand: K.O. up to 1 of your opponent's Characters with 5000 power or less and up to 1 of your opponent's Characters with 4000 power or less.",
+        "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-019",
+        "code": "OP03-019",
+        "rarity": "C",
+        "type": "EVENT",
+        "name": "Fiery Doll",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-019.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-019.png"
+        },
+        "cost": 2,
+        "attribute": {
+            "image": "https://en.onepiece-cardgame.comundefined"
+        },
+        "power": null,
+        "counter": "-",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "[Main] Your Leader gains +4000 power during this turn.",
+        "trigger": "[Trigger] Give up to 1 of your opponent's Leader or Character cards −10000 power during this turn.",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-020",
+        "code": "OP03-020",
+        "rarity": "C",
+        "type": "STAGE",
+        "name": "Striker",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-020.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-020.png"
+        },
+        "cost": 1,
+        "attribute": {
+            "image": "https://en.onepiece-cardgame.comundefined"
+        },
+        "power": null,
+        "counter": "-",
+        "color": "Red",
+        "family": "Whitebeard Pirates",
+        "ability": "[Activate: Main] ② (You may rest the specified number of DON!! cards in your cost area.) You may rest this Stage: If your Leader is [Portgas.D.Ace], look at 5 cards from the top of your deck; reveal up to 1 Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+        "trigger": "",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-021",
+        "code": "OP03-021",
+        "rarity": "L",
+        "type": "LEADER",
+        "name": "Kuro",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-021.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-021.png"
+        },
+        "cost": 5,
+        "attribute": {
+            "name": "Slash",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type02.png"
+        },
+        "power": 5000,
+        "counter": "-",
+        "color": "Green",
+        "family": "East Blue/Black Cat Pirates",
+        "ability": "[Activate: Main] ③ (You may rest the specified number of DON!! cards in your cost area.) You may rest 2 of your {East Blue} type Characters: Set this Leader as active, and rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+        "trigger": "",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-021_p1",
+        "code": "OP03-021",
+        "rarity": "L",
+        "type": "LEADER",
+        "name": "Kuro",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-021_p1.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-021_p1.png"
+        },
+        "cost": 5,
+        "attribute": {
+            "name": "Slash",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type02.png"
+        },
+        "power": 5000,
+        "counter": "-",
+        "color": "Green",
+        "family": "East Blue/Black Cat Pirates",
+        "ability": "[Activate: Main] ③ (You may rest the specified number of DON!! cards in your cost area.) You may rest 2 of your {East Blue} type Characters: Set this Leader as active, and rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+        "trigger": "",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-022",
+        "code": "OP03-022",
+        "rarity": "L",
+        "type": "LEADER",
+        "name": "Arlong",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-022.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-022.png"
+        },
+        "cost": 4,
+        "attribute": {
+            "name": "Slash",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type02.png"
+        },
+        "power": 5000,
+        "counter": "-",
+        "color": "Green/Yellow",
+        "family": "Fish-Man/East Blue/Arlong Pirates",
+        "ability": "[DON!! x2] [When Attacking] ① (You may rest the specified number of DON!! cards in your cost area.): Play up to 1 Character card with a cost of 4 or less and a [Trigger] from your hand.",
+        "trigger": "",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    },
+    {
+        "id": "OP03-022_p1",
+        "code": "OP03-022",
+        "rarity": "L",
+        "type": "LEADER",
+        "name": "Arlong",
+        "images": {
+            "small": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-022_p1.png",
+            "large": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-022_p1.png"
+        },
+        "cost": 4,
+        "attribute": {
+            "name": "Slash",
+            "image": "https://en.onepiece-cardgame.com/images/cardlist/attribute/ico_type02.png"
+        },
+        "power": 5000,
+        "counter": "-",
+        "color": "Green/Yellow",
+        "family": "Fish-Man/East Blue/Arlong Pirates",
+        "ability": "[DON!! x2] [When Attacking] ① (You may rest the specified number of DON!! cards in your cost area.): Play up to 1 Character card with a cost of 4 or less and a [Trigger] from your hand.",
+        "trigger": "",
+        "set": {
+            "name": "-PILLARS OF STRENGTH- [OP03]"
+        },
+        "notes": []
+    }
+]
