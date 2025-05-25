@@ -41,7 +41,7 @@ export default function Filter({
 
   return (
     <div className="bg-gray-800 min-h-15 p-2 px-4 flex flex-col gap-4 fixed w-lvw left-0 bottom-[64px] overflow-x-auto">
-      <div className="flex h-full items-center justify-between">
+      <div className="flex w-full h-full items-center gap-3 justify-between">
         <Pagination
           currentPage={currentPage}
           totalPages={totalPages}
