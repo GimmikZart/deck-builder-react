@@ -10,7 +10,6 @@ export default function Filter({
 }) {
   const [isOpen, setIsOpen] = useState(false)
 
-  // stati locali per rendere i campi controllati
   const [searchValue, setSearchValue] = useState('')
   const [typeValue,   setTypeValue]   = useState('')
   const [colorValue,  setColorValue]  = useState('')
@@ -30,7 +29,6 @@ export default function Filter({
       .then(setColorList)
   }, [])
 
-  // handler per reset
   const handleReset = () => {
     setSearchValue('')
     setTypeValue('')
@@ -41,9 +39,9 @@ export default function Filter({
   }
 
   return (
-    <div className="bg-gray-800 p-4 flex flex-col gap-4 fixed w-full left-0 bottom-[56px]">
+    <div className="bg-gray-800 p-4 flex flex-col gap-4 fixed w-full left-0 bottom-[64px]">
       <div className="flex items-center justify-between">
-        <h3 className="text-white font-bold text-lg">Filters</h3>
+        <h3 className="text-white font-medium text-lg">Filters</h3>
         <button
           onClick={() => setIsOpen(open => !open)}
           className="text-white focus:outline-none"
