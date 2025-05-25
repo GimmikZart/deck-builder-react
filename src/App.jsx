@@ -10,7 +10,7 @@ function App() {
     <div className="flex flex-col h-screen">
       <main className="flex-1 overflow-auto">
         <Routes>
-          <Route path="/"          element={<CardsList />} />
+          <Route path="/" element={<CardsList />} />
           <Route path="/collection" element={<Collection />} />
           {/* <Route path="/decks" element={<h1>Decks</h1>} /> */}
         </Routes>

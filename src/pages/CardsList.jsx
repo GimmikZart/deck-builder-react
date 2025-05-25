@@ -1,15 +1,16 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import Card from '../components/Card';
 import Filter from '../components/Filter';
+import cardsListFromJson from '../assets/cardsList.json'
+
 function CardsList() {
     const [cardsList, setCardsList] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
     const [colorFilter, setColorFilter] = useState('');
     const [typeFilter, setTypeFilter] = useState('');
+    
     useEffect(() => {
-        fetch('/src/assets/cardsList.json')
-        .then(res => res.json())
-        .then(setCardsList);
+      setCardsList(cardsListFromJson);
     }, []);
     
     const filteredCards = useMemo(() => {
