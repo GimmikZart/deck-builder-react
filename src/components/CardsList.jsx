@@ -41,7 +41,7 @@ export default function DataListPage({
   return (
     <div className="bg-gray-900 relative min-h-full pb-20">
       {paginated.length > 0 ? (
-        <ul className="grid grid-cols-2 gap-2 p-2">
+        <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2 p-2 sm:p-4 sm:gap-4 md:grid-cols-4 md:p-5 md:gap-5 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-7">
           {paginated.map(item => (
             <li key={item.id}>{renderItem(item)}</li>
           ))}
