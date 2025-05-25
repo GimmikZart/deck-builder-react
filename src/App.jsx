@@ -1,6 +1,6 @@
 // App.jsx
 import './App.css';
-import CardsList   from './pages/CardsList.jsx';
+import AllCards   from './pages/AllCards.jsx';
 import Collection  from './pages/Collection.jsx';
 import Navbar      from './components/Navbar.jsx';
 import { Routes, Route } from "react-router-dom";
@@ -10,7 +10,7 @@ function App() {
     <div className="flex flex-col h-dvh">
       <main className="flex-1 overflow-auto">
         <Routes>
-          <Route path="/" element={<CardsList />} />
+          <Route path="/" element={<AllCards />} />
           <Route path="/collection" element={<Collection />} />
           {/* <Route path="/decks" element={<h1>Decks</h1>} /> */}
         </Routes>

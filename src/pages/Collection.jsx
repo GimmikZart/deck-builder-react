@@ -1,69 +1,19 @@
-import React, { useState, useMemo, useEffect } from 'react';
+// src/pages/Collection.jsx
+import React from 'react'
 import { useSelector } from 'react-redux'
-import Card from '../components/Card';
-import Filter from '../components/Filter';
+import Card from '../components/Card'
+import CardsList from '../components/CardsList'
 
 const selectCollection = state => state.collection
-function Collection() {
 
-    const cardsList = useSelector(selectCollection)
-  
-    const [searchTerm, setSearchTerm] = useState('');
-    const [colorFilter, setColorFilter] = useState('');
-    const [typeFilter, setTypeFilter] = useState('');
+export default function Collection() {
+  const collection = useSelector(selectCollection)
 
-    const [currentPage, setCurrentPage] = useState(1)
-    const itemsPerPage = 20
-    
-    const filteredCards = useMemo(() => {
-      return cardsList.filter(card => {
-        const matchesSearch = card.name
-          .toLowerCase()
-          .includes(searchTerm.toLowerCase());
-        const matchesType = typeFilter
-          ? card.type === typeFilter
-          : true;
-        const matchesColor = colorFilter
-          ? card.color === colorFilter
-          : true;
-  
-        return matchesSearch && matchesType && matchesColor;
-      });
-    }, [cardsList, searchTerm, typeFilter, colorFilter]);
-
-    const totalPages = Math.ceil(filteredCards.length / itemsPerPage)
-
-    const paginatedCards = useMemo(() => {
-      const start = (currentPage - 1) * itemsPerPage
-      return filteredCards.slice(start, start + itemsPerPage)
-    }, [filteredCards, currentPage])
-  
-    useEffect(() => {
-      setCurrentPage(1)
-    }, [searchTerm, typeFilter, colorFilter])
-    
   return (
-    <div className=" bg-gray-900 relative min-h-full pb-15">
-      {
-        paginatedCards.length > 0 ?
-          <ul className="grid grid-cols-2 gap-2 p-2 ">
-            {paginatedCards.map(card => (
-              <li key={card.id}>
-                <Card card={card}/>
-              </li>
-            ))}
-          </ul>
-        : <div className="text-white text-center pt-10 p-4">No cards found</div>
-      }
-      <Filter 
-        onSearchChange={setSearchTerm}
-        onTypeChange={setTypeFilter}
-        onColorChange={setColorFilter}
-        currentPage={currentPage}
-        totalPages={totalPages}
-        onPageChange={setCurrentPage}
-      />
-    </div>
-  );
+    <CardsList
+      data={collection}
+      itemsPerPage={20}
+      renderItem={card => <Card card={card} />}
+    />
+  )
 }
-export default Collection;
