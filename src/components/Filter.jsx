@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react'
 import { TextInput, Select, Label, Button, Pagination } from 'flowbite-react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFilter, faFilterCircleXmark } from '@fortawesome/free-solid-svg-icons'
+import { faMagnifyingGlass, faCircleXmark, faCircleUp, faCircleDown } from '@fortawesome/free-solid-svg-icons'
 import colorsListFromJson from '../assets/colorList.json'
 import typeListFromJson   from '../assets/typeList.json'
 
@@ -38,24 +38,32 @@ export default function Filter({
     // Riportiamo anche la pagina a 1
     onPageChange(1)
   }
-
   return (
-    <div className="bg-gray-800 min-h-15 p-2 px-4 flex flex-col gap-4 fixed w-lvw left-0 bottom-[64px] overflow-x-auto">
-      <div className="flex w-full h-full items-center gap-3 justify-between">
-        <Pagination
-          currentPage={currentPage}
-          totalPages={totalPages}
-          onPageChange={page => onPageChange(page)}
-          showIcons
-          previousLabel=""
-          nextLabel=""
-        />
-        <button
-          onClick={() => setIsOpen(open => !open)}
-          className="text-white focus:outline-none ml-auto"
-        >
-          <FontAwesomeIcon icon={isOpen ? faFilterCircleXmark : faFilter} size="lg" />
-        </button>
+    <div className="bg-gray-800 p-2 px-4 flex flex-col gap-4 fixed w-lvw left-0 bottom-[64px] overflow-x-auto">
+      <div className='flex flex-col gap-2 items-center justify-center'>
+        {
+          totalPages > 1 && (
+            <Pagination
+              currentPage={currentPage}
+              totalPages={totalPages}
+              onPageChange={page => onPageChange(page)}
+              showIcons
+              previousLabel=""
+              nextLabel=""
+            />
+          )
+        }
+        
+        <div className='w-full flex justify-center gap-3 items-center'>
+          <h3 className='text-base text-white'>Filters</h3>
+          <button
+            onClick={() => setIsOpen(open => !open)}
+            className="text-white focus:outline-none"
+          >
+            <FontAwesomeIcon icon={isOpen ? faCircleXmark : faMagnifyingGlass} size="sm" />
+          </button>
+        </div>
+        
       </div>
 
       {isOpen && (
