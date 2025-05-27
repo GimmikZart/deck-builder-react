@@ -29,12 +29,12 @@ export default function CardAction({card, isCardListView = false}) {
         isCardListView ? (
         <FontAwesomeIcon icon={faCircleCheck} color="green" size="xl" />
         ) : (
-        <Button pill size="xs" color="red" className="p-2 h-auto" onClick={handleRemoveCard}>
+        <Button pill size="xs" color="red" className="p-2 h-auto cursor-pointer" onClick={handleRemoveCard}>
           <FontAwesomeIcon icon={faTrash} />
         </Button>
         )
       ) : (
-        <Button pill size="xs" color="blue" className="p-2 h-auto" onClick={handleAddCard}>
+        <Button pill size="xs" color="blue" className="p-2 h-auto cursor-pointer" onClick={handleAddCard}>
           <FontAwesomeIcon icon={faPlus} />
         </Button>
       )}

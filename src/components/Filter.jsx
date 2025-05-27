@@ -35,11 +35,10 @@ export default function Filter({
     onSearchChange('')
     onTypeChange('')
     onColorChange('')
-    // Riportiamo anche la pagina a 1
     onPageChange(1)
   }
   return (
-    <div className="bg-gray-800 p-2 px-4 flex flex-col gap-4 fixed w-lvw left-0 bottom-[64px] overflow-x-auto">
+    <div className="bg-gray-800 p-2 lg:p-5 px-4 flex flex-col items-center gap-4 fixed w-lvw left-0 bottom-[64px] overflow-x-auto">
       <div className='flex flex-col gap-2 items-center justify-center'>
         {
           totalPages > 1 && (
@@ -54,21 +53,18 @@ export default function Filter({
           )
         }
         
-        <div className='w-full flex justify-center gap-3 items-center'>
-          <h3 className='text-base text-white'>Filters</h3>
-          <button
-            onClick={() => setIsOpen(open => !open)}
-            className="text-white focus:outline-none"
-          >
-            <FontAwesomeIcon icon={isOpen ? faCircleXmark : faMagnifyingGlass} size="sm" />
-          </button>
-        </div>
-        
+        <button
+          onClick={() => setIsOpen(open => !open)}
+          className="text-white focus:outline-none cursor-pointer"
+        >
+          <span className='text-base text-white mr-3'>Filters</span> 
+          <FontAwesomeIcon icon={isOpen ? faCircleXmark : faMagnifyingGlass} size="sm" />
+        </button>
       </div>
 
       {isOpen && (
         <>
-          <div className="flex flex-col md:flex-row gap-4">
+          <div className="w-full flex flex-col md:flex-row gap-4">
             {/* Search */}
             <div className="flex flex-col">
               <Label htmlFor="search" className="mb-2 text-white">Name</Label>

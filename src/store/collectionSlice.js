@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit'
 
 const collectionSlice = createSlice({
   name: 'collection',
-  initialState: [],   // array di oggetti carta
+  initialState: [],
   reducers: {
     addCard: (state, action) => {
       console.log('AGGIUNTOOO');

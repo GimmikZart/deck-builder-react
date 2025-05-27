@@ -1,5 +1,3 @@
-// App.jsx
-import './App.css';
 import AllCards   from './pages/AllCards.jsx';
 import Collection  from './pages/Collection.jsx';
 import Navbar      from './components/Navbar.jsx';
@@ -12,7 +10,6 @@ function App() {
         <Routes>
           <Route path="/" element={<AllCards />} />
           <Route path="/collection" element={<Collection />} />
-          {/* <Route path="/decks" element={<h1>Decks</h1>} /> */}
         </Routes>
       </main>
       <Navbar />

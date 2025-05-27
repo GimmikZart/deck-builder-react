@@ -9,9 +9,7 @@ export default function AllCards() {
     <CardsList
       data={cardsListFromJson}
       itemsPerPage={20}
-      renderItem={card => (
-        <Card card={card} isCardListView={true} />
-      )}
+      renderItem={card => <Card card={card} />}
     />
   )
 }
