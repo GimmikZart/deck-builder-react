@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useMemo } from 'react'
 import Filter from './Filter'
 
-export default function DataListPage({
+export default function CardsList({
   data = [],
   renderItem,
   itemsPerPage = 20,

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import CardAction from './CardAction';
 import { Spinner } from 'flowbite-react'
 
-export default function Card({ card, isCardListView = false }) {
+export default function Card({ card}) {
   const [isOpen, setIsOpen] = useState(false);
   const [thumbLoaded, setThumbLoaded]     = useState(false)
   const [largeLoaded, setLargeLoaded]     = useState(false)
@@ -22,7 +22,7 @@ export default function Card({ card, isCardListView = false }) {
           onLoad={() => setThumbLoaded(true)}
           onClick={() => setIsOpen(true)}
         />
-        <CardAction card={card} isCardListView={isCardListView}/>
+        <CardAction card={card}/>
       </div>
       {isOpen && (
         <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 px-10" onClick={() => setIsOpen(false)}>
@@ -34,7 +34,7 @@ export default function Card({ card, isCardListView = false }) {
           <img 
             src={card.images.large} 
             alt={card.name} 
-            className="w-full h-auto object-cover" 
+            className="w-full h-auto lg:w-auto lg:h-3/4 object-cover" 
             onLoad={() => setLargeLoaded(true)}
             onClick={() => setIsOpen(true)}
           />
